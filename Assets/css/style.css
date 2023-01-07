@@ -1,0 +1,222 @@
+@font-face {
+    font-family: ws-regular;
+    src: url(../Fonts/WorkSans-Regular.ttf);
+  }
+@font-face {
+    font-family: ws-bold;
+    src: url(../Fonts/WorkSans-Bold.ttf);
+  }
+@font-face {
+    font-family: ws-semibold;
+    src: url(../Fonts/WorkSans-SemiBold.ttf);
+  }
+@font-face {
+    font-family: ws-medium;
+    src: url(../Fonts/WorkSans-Medium.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: ws-regular;
+    font-size: 1em;
+  }
+  .main-box{
+      max-width: 1140px;
+      margin: 0 auto;
+  }
+  .bnr-box{
+      position: relative;
+      height: 800px;
+  }
+  .bnr-box > img,
+  .bnr-box > div{
+      position: absolute;
+  }
+  .bnr-box > img{
+      width: 100%;
+      height: 100%;
+  }
+  .headline-container{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+.headline-box{
+    width: 50%;
+    text-align: right;
+}
+.headline-box :nth-child(1){
+    font-family: ws-bold;
+    font-size: 4rem;
+}
+.headline-box :nth-child(2){
+    font-family: ws-regular;
+    font-size: 1rem;
+}
+.basic-btn{
+    font-family: ws-semibold;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.yellow-btn{
+    background-color: #F15B22;
+    color: #ffffff;
+}
+.white-btn{
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
+.headline-box >*{
+    margin: 20px 0px;
+}
+.my-failures-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-failures-img{
+    max-width: 560px;
+}
+.my-failures-content{
+    max-width: 416px;
+}
+.my-failures-content >*,
+.my-plans-item-box >*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-failures-content p:nth-child(1),
+.my-plans-box p:nth-child(1){
+    font-family: ws-semibold;
+    font-size: 2.5rem;
+}
+.my-failures-content p:nth-child(2){
+    font-family: ws-regular;
+    font-size: 1rem;
+}
+.my-plans-box p:nth-child(1){
+    text-align: center;
+}
+.my-plans-item-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    justify-content: space-between;
+}
+.My-plan-item{
+    text-align: center;
+    flex: 0 0 20%;
+}
+.My-plan-item img{
+    width: 100px;
+}
+.My-plan-item p:nth-child(1){
+    font-family: ws-bold;
+    font-size: 1.87rem;
+}
+.My-plan-item p:nth-child(2){
+    font-family: ws-medium;
+    font-size: 1.56rem;
+}
+.call-now-box{
+    height: 300px;
+    position: relative;
+}
+.call-now-box >*{
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(36,30,0);
+    background: linear-gradient(90deg, rgba(36,30,0,1) 0%, rgba(247,151,34,0.5499241933101365) 65%, rgba(0,212,255,0) 100%);
+}
+.call-now-box p{
+    font-family: ws-bold;
+    font-size: 1.87rem;
+    color: #FFFFFF;
+
+}
+.call-now-container{
+    padding: 15px 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.call-now-container p{
+   display: block;
+   flex: 0 0 100%;
+}
+
+#foot{
+    background-color: #222222;
+}
+.foot-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.foot-box >div{
+    flex: 0 0 30%;
+}
+.future ul{
+    list-style-type: none;
+}
+.future ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+.future ul li img{
+    width: 47px;
+    margin-right: 12px;
+}
+.future p:nth-child(1),
+.subscribe p:nth-child(1){
+    font-family: ws-bold;
+    font-size: 2.87rem;
+    color: #FFFFFF;
+}
+.future p:nth-child(2){
+    font-family: ws-regular;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.subscribe form input{
+    display: inline-block;
+    width: 300px;
+    background: #222222;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 15px 10px;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+.future >*,
+.subscribe >*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.m-t-10{
+    margin-top: 100px;
+}
+.m-b-15{
+    margin-bottom: 100px;
+}

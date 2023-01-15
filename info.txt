@@ -1,0 +1,8 @@
+main-size: 1400
+sub-size:1310
+cover color: #FFF4E7
+main color: #FF900E, 100%.
+text color1: #131313;
+text color2: #727272;
+font: Work Sans;
+
